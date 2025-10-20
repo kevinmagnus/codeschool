@@ -21,7 +21,7 @@ div {
     margin: 70px;
     padding: 20px;
     text-align: center;
-    width: 100%;
+    width: auto;
 
     
 }
@@ -175,7 +175,7 @@ margin: 50px;
 
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     flex-wrap: wrap;
     text-align: center;
 
@@ -186,7 +186,7 @@ margin: 50px;
 
 .item {
     text-align: center;
-    width: 100%;
+    width: auto;
 
 }
 
