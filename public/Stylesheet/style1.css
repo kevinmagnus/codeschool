@@ -174,7 +174,7 @@ margin: 50px;
 
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     flex-wrap: wrap;
     text-align: center;
 
@@ -185,7 +185,7 @@ margin: 50px;
 
 .item {
     text-align: center;
-    width:auto;
+    width: 100%;
 }
 
 
