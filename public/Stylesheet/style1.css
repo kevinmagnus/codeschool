@@ -302,3 +302,37 @@ p {
     color: springgreen;
 }
 
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
+
+body{
+    width: 99vw;
+    height: 100vh;
+    background:var(--backgroundGradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:var(--textColor);
+}
+
+/*
+lg mobile view/ sm tablets 
+*/
+@media (max-width: 768px){
+body{
+    background:var(--mobileBackgroundGradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
+
+
+
+
+
+
