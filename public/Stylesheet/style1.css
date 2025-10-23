@@ -3,13 +3,8 @@ body {
 
     text-align: center;
     background-color: white ;
-    max-width: 360px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     
-    
-    
-        
+       
     
 }
 
@@ -249,6 +244,7 @@ footer {
 
     background-color: black;
     color: red;
+    width: 100%;
 }
 
 .card {
@@ -258,7 +254,7 @@ footer {
     border-radius: 10px;
     box-shadow: 0 0 10px; color: rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: auto;
+    width: 100%;
     transition: all 0.3s ease-in-out;
     margin: 80px;
     
