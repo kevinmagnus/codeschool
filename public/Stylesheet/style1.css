@@ -20,7 +20,7 @@ div {
     margin: 70px;
     padding: 20px;
     text-align: center;
-    width: auto;
+    width: 100;
 
     
 }
@@ -360,7 +360,7 @@ p {
 
 body {
 
-    width: 600px;
+    background-color: black;
 }
 
   }
