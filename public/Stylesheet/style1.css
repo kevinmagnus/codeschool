@@ -3,6 +3,7 @@ body {
 
     text-align: center;
     background-color: white ;
+    background-repeat: no-repeat;
     
        
     
@@ -187,6 +188,7 @@ margin: 50px;
 
     text-align: center;
     width: 100%;
+    flex-wrap: wrap;
 
 }
 
