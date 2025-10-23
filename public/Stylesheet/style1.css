@@ -149,8 +149,8 @@ img {
     padding: 5px;
     border-radius: 10px 10px 10px 10px;
     background-color: darkgrey;
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     border: solid 3px yellowgreen;
     
 }
@@ -358,6 +358,10 @@ p {
 
 }
 
+body {
+
+    width: 600px;
+}
 
   }
 
