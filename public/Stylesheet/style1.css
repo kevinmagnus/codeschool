@@ -4,6 +4,9 @@ body {
     text-align: center;
     background-color: white ;
     max-width: 360px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
     
     
         
@@ -176,7 +179,7 @@ margin: 50px;
 
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     flex-wrap: wrap;
     text-align: center;
 
@@ -186,8 +189,9 @@ margin: 50px;
 }
 
 .item {
+
     text-align: center;
-    width: auto;
+    width: 100%;
 
 }
 
@@ -290,7 +294,7 @@ p {
     font-size: 20px;
     font-weight: 30px;
     color: rgb(0, 255, 179);
-    width: auto;
+    width: 50%;
     background-color: gray;
     
 }
@@ -311,25 +315,164 @@ p {
     /* border: 1px solid red; */
 }
 
-body{
-    width: 99vw;
-    height: 100vh;
-    background:var(--backgroundGradient);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color:var(--textColor);
+
+
+@media (max-width: 768px){
+
+
+    .container {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
-/*
-lg mobile view/ sm tablets 
-*/
-@media (max-width: 768px){
-body{
-    background:var(--mobileBackgroundGradient);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.item {
+
+    text-align: center;
+    width: 100%;
+
 }
+
+
+  }
+
+
+
+
+
+@media (max-width: 600px){
+
+
+    .container {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
 }
+
+.item {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+
+  }
+
+
+
+
+
+@media (min-width: 601px){
+
+
+    .container {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+
+  }
+
+
+
+  @media (max-width: 968px){
+
+
+    .container {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+
+  }
+
+
+
+
+
+@media (max-width: 1440px){
+
+
+    .container {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+
+  }
+
+
+
+  @media (min-width: 1200px){
+
+
+    .container {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+
+  }
+
+
+
+
+
+
+
+
+
 
 
 
